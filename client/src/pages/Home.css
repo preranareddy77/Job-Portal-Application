@@ -1,0 +1,143 @@
+.home {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#f7f9fc,#eef4ff);
+}
+
+.hero {
+  text-align: center;
+  width: 70%;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: #2563eb;
+}
+
+.hero p {
+  font-size: 22px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+.hero button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 16px 35px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: #1d4ed8;
+  transform: translateY(-3px);
+}
+.featured {
+    padding: 80px;
+    background: #ffffff;
+}
+
+.featured h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #1f2937;
+}
+
+.job-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.job-card {
+    width: 320px;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.job-card:hover {
+    transform: translateY(-8px);
+}
+
+.job-card h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.job-card h4 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.job-card p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.job-card button {
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.job-card button:hover {
+    background: #1d4ed8;
+}
+.stats-section{
+    padding:80px;
+    background:#2563eb;
+    color:white;
+    text-align:center;
+}
+
+.stats-section h2{
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.stats-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.stat-box{
+    background:white;
+    color:#2563eb;
+    width:220px;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.stat-box h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    color:#444;
+    font-size:18px;
+}

@@ -1,0 +1,31 @@
+.about{
+    max-width:900px;
+    margin:60px auto;
+    padding:40px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.about h1{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.about h2{
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.about p{
+    line-height:1.8;
+    color:#555;
+}
+
+.about ul{
+    margin-left:20px;
+}
+
+.about li{
+    margin-bottom:10px;
+}
